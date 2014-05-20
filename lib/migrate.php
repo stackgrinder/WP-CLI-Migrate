@@ -111,7 +111,7 @@ class CLI_Migrate extends WP_Migrate_DB {
 		$this->close( $this->fp );
 	}
 
-	function get_filename() {
+	function get_filename($datetime = '', $gzip = false) {
 		return $this->filename;
 	}
 

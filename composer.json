@@ -1,0 +1,15 @@
+{
+    "name": "stackgrinder/wp-cli-migrate",
+    "description": "A database migration command for WP-CLI. Installs like an ordinary plugin.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stack Grinder",
+            "email": "admin@stackgrinder.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+    }
+}
